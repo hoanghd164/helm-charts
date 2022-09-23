@@ -1,0 +1,14 @@
+#Deployment
+image: prom/prometheus
+replicas: 3
+
+#Services
+exposePort: 80
+targetPort: 9090
+type: LoadBalancer
+customLabel: prometheus
+
+#Ingress
+pathType: Prefix
+hosts: prometheus.hoanghd.com
+customLabel: prometheus

@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  prometheus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-23T06:39:36.417702384Z"
+    description: A Helm chart for Kubernetes
+    digest: a3c083ce9e9bab89f7519f35fc4c445589706e8516d8467b4e9b3aa9e7ab9185
+    name: prometheus
+    type: application
+    urls:
+    - publish/prometheus-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-23T06:39:36.417078319Z"
